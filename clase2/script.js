@@ -15,6 +15,7 @@ const enlaces = document.querySelectorAll('.tarjeta a');
 console.log(enlaces)
 enlaces.forEach((enlace, index) => {
     enlace.setAttribute('href', urlImagenes[index])
+    enlace.setAttribute('target', '_blank')
 });
 
 /* ETAPA 3
